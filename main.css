@@ -1,0 +1,69 @@
+html, body {
+        margin:0;
+        padding:0;
+        font-family:sans-serif;
+        background-color:#333;
+        color:#fff;
+}
+
+a {
+        color:inherit;
+}
+
+.logo {
+        text-decoration:none;
+}
+
+header {
+        text-align:center;
+        padding:0px 25px;
+}
+
+footer {
+        text-align:center;
+}
+
+.imprint {
+        max-width:800px;
+        margin:0px auto;
+        padding:25px;
+}
+
+.home {
+        max-width:800px;
+        margin:0px auto;
+        padding:25px;
+        display:flex;
+        flex-direction:column;
+        justify-content:stretch;
+}
+
+.home > div {
+        flex:1;
+        padding:20px;
+        text-align:center;
+}
+
+.row {
+        display:flex;
+        align-items:center;
+}
+
+input {
+        /*width:100%;*/
+        font-size:25px;
+        /*text-align:center;*/
+        background-color:rgba(255, 255, 255, 0.6);
+        border:0;
+        border-radius:.2em;
+        padding:5px 10px 5px 5px;
+        box-sizing:border-box;
+        flex:1;
+        cursor:text;
+}
+
+.sh {
+        font-size:25px;
+        flex:0;
+        padding-right:5px;
+}
